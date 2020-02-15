@@ -54,8 +54,8 @@ private:
     static QByteArray fileMD5(QString filename);
 
     // Constant values
-    static constexpr int     FONT_PIXEL_SIZE_TEXT = 38;
-    static constexpr int     FONT_PIXEL_SIZE_BOX  = 24;
+    static constexpr int     FONT_PIXEL_SIZE_TEXT = 152;
+    static constexpr int     FONT_PIXEL_SIZE_BOX  = 96;
     static constexpr double  MASK_OPACITY         = 0.6;
     static constexpr double  LINE_WIDTH           = 2;
     static constexpr int     FONT_HEIGHT_MARGIN   = 3;
