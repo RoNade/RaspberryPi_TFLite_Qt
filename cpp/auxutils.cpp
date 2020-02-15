@@ -97,7 +97,7 @@ QImage AuxUtils::drawText(QImage image, QRectF rect, QString text, Qt::Alignment
 
         // Configure brush
         brush.setStyle(Qt::SolidPattern);
-        brush.setColor(fontColor);
+        brush.setColor(Qt::red);
 
         // Get lines
         lines = text.split('\n',QString::SkipEmptyParts);
